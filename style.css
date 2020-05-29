@@ -79,6 +79,7 @@ ul {
 }
 #row2{
     width:27%;
+    padding-top:40px;
 }
 
 .text{
@@ -115,7 +116,8 @@ ul {
     margin-top: 10px;
     margin-right: 10px;
     border-style:solid;
-    border-color:white;
+    border-color:black;
+    border-width:10px;
 }
 .unique{
     display:inline;
