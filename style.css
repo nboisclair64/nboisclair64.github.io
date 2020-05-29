@@ -1,0 +1,170 @@
+h1{
+    font-family: Verdana, sans-serif;
+    font-size: 200%px;
+    color:white;
+    text-align: center;
+}
+
+
+body{
+   
+    font-family: Verdana, sans-serif;
+    
+}
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    font-family: Verdana, sans-serif;;
+    
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 75px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+      
+    background-color: #111;
+  }
+  img{
+      vertical-align: center;
+  }
+  .endpiece{
+      float:right;
+  }
+  body{
+    background-image: url('https://wallpaperplay.com/walls/full/7/3/7/28154.jpg');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+.paragraph1{
+    color:white;
+    background-color:black;
+    display:block;
+    float: left;
+    font-size:20px;
+    position: relative; bottom:-10px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Verdana, sans-serif;
+    border-style: solid;
+    border-color: white;
+}
+.row{
+    margin-top:30px;
+}
+#row2{
+    width:27%;
+}
+
+.text{
+    position: static;
+    color:white;
+    text-align:left;
+    font-size: 500%;
+    
+}
+.text3{
+    position: static;
+    color:white;
+    text-align:left;
+    font-size: 500%;
+    
+}
+.text2{
+    position: static;
+    color:white;
+    text-align:left;
+    font-size: 500%;
+    padding-top:80px;
+}
+.contact{
+    margin-bottom:40px;
+}
+.contact2{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.building{
+    float:right;
+    font-size:1vw;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-style:solid;
+    border-color:white;
+}
+.unique{
+    display:inline;
+    padding: 0px 0px;
+
+}
+.unique:hover{
+    background-color:black;
+}
+.redditlogo{
+    margin-top: 260px;
+    margin-left: 160px;
+    margin-right:160px;
+    width:40%;
+    height: 40%;
+    min-width:15%;
+    height: auto;
+
+}
+iframe{
+    height: 900px;
+    width: 900px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.dropdown-menu{
+    background-color: #111; 
+}
+
+h7{
+    font-size:15px;
+}
+@media only screen and (max-width:800px){
+    .paragraph1,.building{
+        flex-direction:column;
+    }
+}
+@media only screen and (max-width:800px){
+    .redditlogo{
+        flex-direction:column;
+        height: 40%;
+        width:40%;
+    }
+}
+@media only screen and (max-width:1400px){
+    #row2{
+        
+        flex-direction:column;
+    }
+}
